@@ -13,6 +13,7 @@ namespace Tyuiu.KortelyovDN.Sprint3.Task2.V17.Test
             int startValue = 1;
             int stopValue = 10;
 
+
             double res = ds.GetSumSeries(startValue, stopValue);
 
             Assert.AreEqual(wait, res);
