@@ -12,6 +12,7 @@ namespace Tyuiu.KortelyovDN.Sprint3.Task2.V17
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
+            double value = 1; 
             int startValue = 1;
             int stopValue = 10;
 
@@ -22,7 +23,7 @@ namespace Tyuiu.KortelyovDN.Sprint3.Task2.V17
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Сумма ряда = " + ds.GetSumSeries(startValue, stopValue));
+            Console.WriteLine("Сумма ряда = " + ds.GetSumSeries(value, startValue, stopValue));
 
             Console.ReadKey();
         }
